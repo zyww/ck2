@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>场外抽奖</title>
+<style>
+	#outer-2{width: 640px;height: 1007px;background: url(images/bg01.jpg) 0 0 no-repeat;margin: 20px auto;}
+	#inner-2{margin-left: 40px;}
+	#con-2-1 #z1-2{font-size: 24px;color: #c8002d;padding-top: 36px;text-align: center; }
+	#con-2-2 #btn2{width: 438px;height: 95px;line-height: 95px;text-align: center;color: #fff;background:#003899;border-radius: 18px;margin: 16px auto 25px;font-weight: bolder; font-family: "宋体",Arail,Tabhoma;font-size: 24px;cursor: pointer;}
+	#con-2-3 #z4-2{float: left;margin-left: 32px;padding-top: 11px;}
+	#con-2-3 #tubiao-2 {}
+	#con-2-3 #tubiao-2 img{width: 68px;height: 68px; padding-left: 28px;}
+
+</style>
+</head>
+<body>
+	<div id="outer-2">
+		<div id="inner-2">
+			<div id="con-2-1">
+				<p id="z1-2">人品不错哦！</p>
+				<p id="z2-2">恭喜您抽中价值30元的手机话费！请留下联系方式，24小时内话费将为您送上，请留意短信，谢谢！</p>
+			</div>
+			<div id="con-2-2">
+				<img id="qian1" src="images/y10.png" alt="">
+				<p id="z3-2">请输入手机号码24小时内为您充值</p>
+				<img src="images/shuru1.jpg" alt="">
+				<p id="btn2">确认提交</p>
+			</div>
+			<div id="con-2-3">
+				<p id="z4-2">分享好友积攒人品：</p>
+				<div id="tubiao-2">
+					<img src="images/weixin.png" alt="">
+					<img src="images/xlwb.png" alt="">
+					<img src="images/txwb.png" alt="">
+			</div>
+			
+		</div>
+	</div>
+</body>
+<script src="../functionbag/jquerybag.js"></script>
+<script>
+	$(function(){
+		$('#btn2').click(function(){
+			window.open('提交成功.html','_self');
+		})
+	})
+</script>
+</html>

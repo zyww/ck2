@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>场内抽奖</title>
+<style>
+*{list-style: none;}
+h1{text-align: center}
+	#outer-1{width:640px;height: 1007px;background: url(images/bg01.jpg) 0 0 no-repeat;margin: 20px auto; }
+	#inner-1{margin-left: 20px;}
+	#con-1-1 #z1-1{width: 640px; color: #032970;font-size: 24px;font-weight: bolder;padding-top: 37px; font-family: "宋体",Arail,Tabhoma;}
+	#con-1-2{width: 598px;height: 473px;background: #fff;margin: 15px 0 0;text-align: center;position: relative;}
+	#con-1-2 #z2-1{font-size: 14px;color: #696969; center;padding-top: 19px;    margin-right: 130px;
+    letter-spacing: 6px;}
+	#con-1-2 #biaozhi{width: 418px;height:75px;  padding-bottom: 50px;position: relative;}
+	#con-1-3 #z3-1{font-size: 24px;color: #032970;;font-weight: bolder; font-family: "宋体",Arail,Tabhoma;}
+	#con-1-3 #z4-1{font-size: 16px;color: #5d6363;}
+	#con-1-3 #btn{width: 431px;height: 97px;line-height: 97px;text-align: center;color: #fff;background: #032970;font-size: 24px;border-radius: 17px;margin: 20px auto 23px;cursor: pointer;}
+	#con-1-4 #z5-1{float: left;margin-left: 32px;padding-top: 11px;}
+	#con-1-4 #tubiao-1 {}
+	#con-1-4 #tubiao-1 img{width: 68px;height: 68px; padding-left: 28px;}
+	#zimu{position: absolute;top: 60px; left: 95px;
+    letter-spacing: 75px;}
+	#zimu li{float: left;}
+
+
+	
+
+</style>
+</head>
+<body>
+<h1>抽奖结果</h1>
+	<div id="outer-1">
+		<div id="inner-1">
+			<div id="con-1-1">
+				<p id="z1-1">恭喜您，启辰车模已经属于您啦！</p>
+			</div>
+			<div id="con-1-2">
+				<p id="z2-1">请保持在本页面，凭页面代码大奥展台领取礼品</p>
+				<img id="biaozhi" src="images/bg03.jpg" alt="">
+				<ul id="zimu">
+					<li>Q</li>
+					<li>C</li>
+					<li>O</li>
+					<li>O</li>
+					<li>L</li>
+				</ul>
+				<img id="che" src="images/qc_07.jpg" alt="">
+					
+			</div>
+			<div id="con-1-3">
+				<p id="z3-1">不够过瘾？</p>
+				<p id="z4-1">那么请留下您的联系方式，就有机会抽取启辰R30晨风一年使用权大奖哦！</p>
+				<p id="btn">启辰开回家</p>
+			</div>
+			<div id="con-1-4">
+				<p id="z5-1">分享好友积攒人品：</p>
+				<div id="tubiao-1">
+					<img src="images/weixin.png" alt="">
+					<img src="images/xlwb.png" alt="">
+					<img src="images/txwb.png" alt="">
+				</div>
+				
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="../functionbag/jquerybag.js"></script>
+<script>
+	$(function(){
+		$('#con-1-3 #btn').click(function(){
+			window.open('qichenkhj.html','_self');
+		})
+	})
+</script>
+</html>
